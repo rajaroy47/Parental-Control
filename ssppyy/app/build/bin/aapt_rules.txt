@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:85
+-keep class com.mycompany.myspyapp.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.mycompany.myspyapp.BotService { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.mycompany.myspyapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.mycompany.myspyapp.MmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.mycompany.myspyapp.SMSReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.mycompany.myspyapp.ScreenStateReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.mycompany.myspyapp.SetToken { <init>(...); }
+

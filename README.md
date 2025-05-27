@@ -7,7 +7,7 @@
 
 **BelieveMe** is a powerful parental control application designed to help parents monitor and manage their children's device usage effectively. This application utilizes a **Telegram Bot** to receive commands, allowing for remote interaction and oversight. **Please note that this application is not open source.**
 
-**To use BelieveMe, parents will need to create and configure a Telegram Bot.** Detailed instructions for setting up the Telegram Bot will be provided in the installation guide.
+**Control your child's device remotely through a Telegram Bot!**
 
 ## ✨ Available Commands (via Telegram Bot) ✨
 
@@ -62,9 +62,34 @@ Get assistance with the available commands.
 
 * `/help` — Display this comprehensive list of available commands and their descriptions within the Telegram Bot.
 
-## 🛠️ Installation
+## 🛠️ Installation Guide
 
-Detailed installation instructions will be provided separately. **This will include a guide on how to create and configure your Telegram Bot to communicate with the BelieveMe application.** Please ensure you follow the guidelines carefully to install and configure the application and the Telegram Bot correctly on both the parent's and child's devices.
+To start using BelieveMe, please follow these steps:
+
+1.  **Create a Telegram Bot:**
+    * Open the Telegram application on your device.
+    * Search for the **BotFather** bot. You should see a verified bot with a blue checkmark.
+    * Start a chat with BotFather by tapping **Start**.
+    * Send the command `/newbot` to BotFather.
+    * BotFather will ask you to choose a name for your bot. Enter a name (e.g., "BelieveMe Control").
+    * Next, BotFather will ask you to choose a username for your bot. This username must end with `bot` (e.g., "BelieveMeControlBot").
+    * Once you've chosen a valid username, BotFather will congratulate you and provide you with your bot's **HTTP API token**. **Copy this token carefully.**
+
+2.  **Install BelieveMe on the Child's Device:**
+    * Install the BelieveMe application on the device you wish to monitor. (Provide instructions on how to obtain and install the app here, e.g., from a website or app store).
+
+3.  **Enter Bot Token and Access Key in the App:**
+    * Open the BelieveMe application on the child's device.
+    * You will be prompted to enter the **Telegram Bot Token** that you copied from BotFather. Paste the token into the designated field.
+    * You will also be prompted to enter an **Access Key** provided by the developer. Enter the correct access key in the designated field.
+
+4.  **The App is Ready:**
+    * Once you have entered the correct Bot Token and Access Key, the BelieveMe application will be ready to receive commands from your Telegram Bot.
+
+5.  **Start Controlling:**
+    * Open your Telegram application and search for the username of the bot you created (e.g., `@BelieveMeControlBot`).
+    * Start a chat with your bot.
+    * You can now send the available commands (listed above) to the bot to perform actions and retrieve information from the child's device.
 
 ## ⚠️ Important Notes
 
@@ -73,6 +98,7 @@ Detailed installation instructions will be provided separately. **This will incl
 * The functionality and availability of certain commands may vary depending on the device's operating system version and permissions granted during installation.
 * The `sendimage` command's implementation for identifying images by number will be detailed in the full documentation.
 * **Parents are responsible for creating and managing their own Telegram Bot.**
+* **Keep your Telegram Bot Token and the application's Access Key confidential.**
 
 ## 📄 License
 
